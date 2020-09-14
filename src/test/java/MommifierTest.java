@@ -10,4 +10,11 @@ public class MommifierTest {
         String result = mommifier.convert(string);
         assertEquals("amommyejvmommy",result);
     }
+
+    public void should_return_the_string_when_the_number_of_vowels_are_no_more_than_30_of_the_string_length(){
+        Mommifier mommifier = new Mommifier();
+        String string= new String("bcd");
+        String result = mommifier.convert(string);
+        assertEquals("bcd",result);
+    }
 }
