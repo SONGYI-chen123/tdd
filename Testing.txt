@@ -1,0 +1,14 @@
+需求：
+If the number of vowels (aeiou) are more than 30% of the string length then insert ‘mommy’ for each continuous set of vowels.
+
+需求分析：
+1、字符串中的元音数目超过字符串长度的30%的，向字符串中的每组元音中插入‘mommy’
+2、字符串中的元音数目未超过（即小于或等于）字符串长度的30%的，返回原有字符串
+3、字符串未定义，抛出异常
+
+//Griven
+A String
+//when
+convert
+//Then
+a new String
